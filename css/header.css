@@ -1,0 +1,32 @@
+
+:root{
+    --color1: #0A2A66;
+    --color2: #CC1318;
+    --color3: #015B04;
+}
+
+/* HEADER */
+.header{
+    box-shadow: 2px 2px 3px black;
+    background-color: var(--color1);
+    text-emphasis-color:var(--color2);
+    /* Tamaño de las anclas */
+    .cajAnclas{
+        li{
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+    .cajAnclas li:hover{
+        /* border-bottom: 1px solid black; */
+        /* color: black; */
+        background-color: rgba(0, 0, 0, 0.516);
+        /* transition: all 0.3s ease; */
+    }
+    
+}
+.c:hover{
+     
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+}
