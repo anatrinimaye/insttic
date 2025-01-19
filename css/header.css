@@ -9,24 +9,19 @@
 .header{
     box-shadow: 2px 2px 3px black;
     background-color: var(--color1);
-    text-emphasis-color:var(--color2);
     /* Tamaño de las anclas */
-    .cajAnclas{
-        li{
+    .cajAnclas, .dropdown{
+        a{
             font-size: 20px;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
     }
-    .cajAnclas li:hover{
-        /* border-bottom: 1px solid black; */
-        /* color: black; */
-        background-color: rgba(0, 0, 0, 0.516);
-        /* transition: all 0.3s ease; */
+    .cajAnclas:hover{
+        border-bottom: 3px solid rgb(210, 125, 28); 
+        transition: all 0.5s ease-in-out;
+    }
+    .dropdown:hover{
+        background-color: rgba(255, 68, 0, 0.505);
     }
     
-}
-.c:hover{
-     
-    text-decoration: underline;
-    transition: all 0.3s ease-in-out;
 }
