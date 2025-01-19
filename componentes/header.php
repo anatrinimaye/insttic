@@ -19,12 +19,12 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav cajAnclas">
-                <li class="nav-item">
-                <a class="nav-link  text-light me-2" aria-current="page" href="#">Inicio</a>
+            <ul class="navbar-nav ">
+                <li class="nav-item cajAnclas">
+                <a class="nav-link  text-light me-3" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-light me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-light me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Especialidades
                 </a>
                 <ul class="dropdown-menu">
@@ -35,24 +35,12 @@
                 </ul>
                 </li>
                 
-                <li class="nav-item">
-                <a class="nav-link text-light me-2" aria-current="page" href="#">Blog</a>
+                <li class="nav-item cajAnclas">
+                <a class="nav-link text-light me-3" aria-current="page" href="#">Blog</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link text-light me-2" aria-current="page" href="#">Sobre Nosotros</a>
+                <li class="nav-item cajAnclas">
+                <a class="nav-link text-light me-3" aria-current="page" href="#">Sobre Nosotros</a>
                 </li>
-                
-                <!-- <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-light me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Acceder como
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Profesor</a></li>
-                    <li><a class="dropdown-item" href="#">Alumno</a></li>
-                    <li><a class="dropdown-item" href="#">Secretaria</a></li>
-                    <li><a class="dropdown-item" href="#">Seguridad</a></li>
-                </ul>
-                </li> -->
             </ul>
             </div>
         </div>
