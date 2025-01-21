@@ -3,11 +3,14 @@
     --color1: #0A2A66;
     --color2: #CC1318;
     --color3: #015B04;
+    --color4: rgb(255, 119, 0);
+    --color5: rgba(0, 0, 0, 0.722);
 }
 /* HEADER */
 .header{
     box-shadow: 2px 2px 3px black;
     background-color: var(--color1);
+    
     /* Tamaño de las anclas */
     .cajAnclas, .dropdown{
         a{
@@ -16,20 +19,18 @@
         }
     }
     .cajAnclas:hover{
-        border-bottom: 3px solid rgb(210, 125, 28); 
-        transition: all 0.5s ease-in-out;
+        background-color: var(--color5);
+        border-left: 2px solid var(--color4);
+        color: var(--color4);
     }
     .dropdown:hover{
-        background-color: rgba(255, 68, 0, 0.505);
+       background-color: var(--color5);
     } 
 }
 /* FOOTER */
 .footer{
-    background-color: #000000;
-
-    /* background-color: var(--color1); */
+    background-color: var(--color1);
     .foot{
-
         justify-content: center;
         text-align: center;
         i{  
@@ -39,32 +40,28 @@
         }
         a{
             text-decoration: none;
+            
         }
-        
-        
     }
-    
-    .mapa{
-        height: 200px;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(../img/mapa.jpg);
-    }
+   
     .contactos{
         display: flex;
         justify-content: space-around;
-        height: auto;
         text-align: center;
         flex-wrap: wrap;
+        height: auto;
         a{
             text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        a:hover{
+            color: var(--color4);
         }
         div{
             i{  
                 border-radius: 50%;
-                color: rgb(0, 0, 0);
-                background: #ffffff;
+                color: rgb(255, 255, 255);
+                background: #000000;
             }
         }
         
