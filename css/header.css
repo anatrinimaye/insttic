@@ -4,7 +4,6 @@
     --color2: #CC1318;
     --color3: #015B04;
 }
-
 /* HEADER */
 .header{
     box-shadow: 2px 2px 3px black;
@@ -22,6 +21,52 @@
     }
     .dropdown:hover{
         background-color: rgba(255, 68, 0, 0.505);
+    } 
+}
+/* FOOTER */
+.footer{
+    background-color: #000000;
+
+    /* background-color: var(--color1); */
+    .foot{
+
+        justify-content: center;
+        text-align: center;
+        i{  
+            color: #000000;
+            border-radius: 50%;
+            background: #ffffff;
+        }
+        a{
+            text-decoration: none;
+        }
+        
+        
     }
     
+    .mapa{
+        height: 200px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/mapa.jpg);
+    }
+    .contactos{
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+        text-align: center;
+        flex-wrap: wrap;
+        a{
+            text-decoration: none;
+        }
+        div{
+            i{  
+                border-radius: 50%;
+                color: rgb(0, 0, 0);
+                background: #ffffff;
+            }
+        }
+        
+    }
 }
